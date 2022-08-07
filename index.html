@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic input types</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <script src="./scripts/app.js" defer></script>
-</head>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
 
-<body>
+  <body>
     <form>
-        <header class="header-content">
-            <h1>HTML 5 Form Input Fields</h1>
-        </header>
+      <header class="header-content">
+        <h1>HTML 5 Form Input Fields</h1>
+      </header>
 
-        <div class="input-field">
-            <label for="text">text input type for Name:</label>
-            <input type="text" id="text" name="text">
-            <div class="error-text" for="text"></div>
-        </div>
-        <div class="input-field">
-            <label for="pwd">password input type:</label>
-            <input type="password" id="pwd" name="pwd" required>
-            <div class="error-text pwd-error" for="password"></div>
-        </div>
-        <div class="input-field">
-            <label for="email">email input type:</label>
-            <input type="email" id="email" name="email">
-        </div>
-        <div class="input-field">
-            <label for="url">url input type:</label>
-            <input type="url" id="url" name="url">
-        </div>
-        <div class="input-field">
-            <label for="number">number input type:</label>
-            <input type="tel" id="tel" name="tel">
-        </div>
-        <div class="input-field">
-            <label for="search">search input type:</label>
-            <input type="search" id="search" name="search">
-        </div>
-        <div class="input-field date-time-field">
-            <label for="startDate">Choose a date and time:</label>
-            <input type="datetime-local" id="startDate" name="startDate">
-            <span class="validity"></span>
-        </div>
-        <div class="input-field">
-            <label for="salary">Choose your salary:</label>
-            <input type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
-            <output class="salary-output" for="salary">400000</output>
-        </div>
-        <div class="button">
-            <button type="submit">Submit</button>
-        </div>
+      <div class="input-field">
+        <label for="text">text input type for Name:</label>
+        <input type="text" id="text" name="text" />
+        <div class="error-text" for="text"></div>
+      </div>
+      <div class="input-field">
+        <label for="pwd">password input type:</label>
+        <input type="password" id="pwd" name="pwd" required />
+        <div class="error-text pwd-error" for="password"></div>
+      </div>
+      <div class="input-field">
+        <label for="email">email input type:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div class="input-field">
+        <label for="url">url input type:</label>
+        <input type="url" id="url" name="url" />
+      </div>
+      <div class="input-field">
+        <label for="number">number input type:</label>
+        <input type="tel" id="tel" name="tel" />
+      </div>
+      <div class="input-field">
+        <label for="search">search input type:</label>
+        <input type="search" id="search" name="search" />
+      </div>
+      <div class="input-field date-time-field">
+        <label for="startDate">Choose a date and time:</label>
+        <input type="datetime-local" id="startDate" name="startDate" />
+        <span class="validity"></span>
+      </div>
+      <div class="input-field">
+        <label for="salary">Choose your salary:</label>
+        <input
+          type="range"
+          name="salary"
+          id="salary"
+          min="300000"
+          max="500000"
+          step="100"
+          value="400000"
+        />
+        <output class="salary-output" for="salary">400000</output>
+      </div>
+      <div class="button">
+        <button type="submit">Submit</button>
+      </div>
     </form>
-</body>
-
+  </body>
 </html>
